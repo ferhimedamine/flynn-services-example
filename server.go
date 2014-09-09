@@ -70,6 +70,10 @@ var html = template.Must(template.New("html").Funcs(helpers).Parse(`
         {{ end }}
       </div>
     </div>
+
+    <script type="text/javascript">
+      window.setTimeout(function() { document.location.reload(true) }, 2000)
+    </script>
   </body>
 </html>
 `[1:]))
