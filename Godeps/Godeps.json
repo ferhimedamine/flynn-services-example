@@ -1,0 +1,31 @@
+{
+	"ImportPath": "github.com/lmars/flynn-services-example",
+	"GoVersion": "go1.3.1",
+	"Deps": [
+		{
+			"ImportPath": "github.com/flynn/flynn/Godeps/_workspace/src/github.com/coreos/go-etcd/etcd",
+			"Comment": "cli-v20140829-33-g99f2b28",
+			"Rev": "99f2b28515e826852e04e3ecba2061254b6abe6c"
+		},
+		{
+			"ImportPath": "github.com/flynn/flynn/discoverd/agent",
+			"Comment": "cli-v20140829-33-g99f2b28",
+			"Rev": "99f2b28515e826852e04e3ecba2061254b6abe6c"
+		},
+		{
+			"ImportPath": "github.com/flynn/flynn/discoverd/client",
+			"Comment": "cli-v20140829-33-g99f2b28",
+			"Rev": "99f2b28515e826852e04e3ecba2061254b6abe6c"
+		},
+		{
+			"ImportPath": "github.com/flynn/flynn/pkg/attempt",
+			"Comment": "cli-v20140829-33-g99f2b28",
+			"Rev": "99f2b28515e826852e04e3ecba2061254b6abe6c"
+		},
+		{
+			"ImportPath": "github.com/flynn/flynn/pkg/rpcplus",
+			"Comment": "cli-v20140829-33-g99f2b28",
+			"Rev": "99f2b28515e826852e04e3ecba2061254b6abe6c"
+		}
+	]
+}
